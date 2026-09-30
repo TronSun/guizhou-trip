@@ -90,6 +90,12 @@
   }
   tbody tr:nth-child(even) { background: var(--zebra); }
   tbody tr:last-child td { border-bottom: 0; }
+  table.overview {
+    background: transparent;
+    box-shadow: none;
+    border-radius: 0;
+    white-space: normal;
+  }
   input[type="checkbox"] {
     width: 17px; height: 17px;
     vertical-align: -3px;
@@ -105,11 +111,12 @@
 线路：贵阳 → 黄果树 → 荔波 → 西江 → 贵阳（全程不走回头路）</p>
 <hr>
 <h2>📊 总览</h2>
-<table>
+<table class="overview">
 <thead>
 <tr>
 <th>日期</th>
 <th>景点</th>
+<th>出发</th>
 <th>核心时段</th>
 <th>夜宿</th>
 <th>晚饭</th>
@@ -118,6 +125,7 @@
 <tbody><tr>
 <td>10.3 周六</td>
 <td>✈️ 抵达</td>
+<td>—</td>
 <td>20:30 落地</td>
 <td>贵阳机场旁</td>
 <td>随便吃饱</td>
@@ -125,6 +133,7 @@
 <tr>
 <td>10.4 周日</td>
 <td>黄果树瀑布</td>
+<td>7:00</td>
 <td>9:30-16:00</td>
 <td>都匀·麓枫</td>
 <td>虾酸牛肉</td>
@@ -132,6 +141,7 @@
 <tr>
 <td>10.5 周一</td>
 <td>荔波小七孔</td>
+<td>8:00</td>
 <td>10:30-16:30</td>
 <td>荔波·维也纳</td>
 <td>樟江鱼</td>
@@ -139,6 +149,7 @@
 <tr>
 <td>10.6 周二</td>
 <td>西江苗寨+旅拍</td>
+<td>7:30</td>
 <td>12:00-19:30</td>
 <td>凯里·麓枫</td>
 <td>侗嘎佬</td>
@@ -146,6 +157,7 @@
 <tr>
 <td>10.7 周三</td>
 <td>贵阳城区</td>
+<td>9:00-10:00</td>
 <td>12:30-18:30</td>
 <td>贵阳机场旁</td>
 <td>青云市集</td>
@@ -154,6 +166,7 @@
 <td>10.8 周四</td>
 <td>✈️ 返程</td>
 <td>早班机</td>
+<td>—</td>
 <td>—</td>
 <td>—</td>
 </tr>
@@ -181,7 +194,7 @@
 </tr>
 </tbody></table>
 <blockquote>
-<p>💡 行李收拾好放随手处，明早 7:00 出发</p>
+<p>💡 行李收拾好放随手处，明早 7:00 出发；机场酒店<strong>无早</strong>，早饭服务区或自备干粮解决</p>
 </blockquote>
 <hr>
 <h2>Day 2 ｜ 10.4（周日）黄果树 → 都匀</h2>
@@ -388,32 +401,38 @@
 <th>日期</th>
 <th>城市</th>
 <th>酒店</th>
+<th>早餐</th>
 </tr>
 </thead>
 <tbody><tr>
 <td>10.3</td>
 <td>贵阳机场</td>
 <td>机场旁酒店</td>
+<td>❌ 无早</td>
 </tr>
 <tr>
 <td>10.4</td>
 <td>都匀</td>
 <td>麓枫（大十字·文峰公园店）</td>
+<td>✅ 含早</td>
 </tr>
 <tr>
 <td>10.5</td>
 <td>荔波</td>
 <td>维也纳（荔波古镇店）</td>
+<td>✅ 含早</td>
 </tr>
 <tr>
 <td>10.6</td>
 <td>凯里</td>
 <td>麓枫（永丰东路店）</td>
+<td>✅ 含早</td>
 </tr>
 <tr>
 <td>10.7</td>
 <td>贵阳机场</td>
 <td>机场旁酒店</td>
+<td>❌ 无早</td>
 </tr>
 </tbody></table>
 <hr>
